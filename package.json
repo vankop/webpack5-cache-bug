@@ -1,0 +1,24 @@
+{
+  "name": "webpack5-cache-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --env.development",
+	"build:debug": "webpack --env.development --env.debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vankop/webpack5-cache-bug.git"
+  },
+  "author": "Ivan Kopeykin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vankop/webpack5-cache-bug/issues"
+  },
+  "homepage": "https://github.com/vankop/webpack5-cache-bug#readme",
+  "devDependencies": {
+    "webpack": "^5.0.0-beta.8",
+    "webpack-cli": "^3.3.10"
+  }
+}
