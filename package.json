@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack --env.development",
-	"build:debug": "webpack --env.development --env.debug"
+    "build:debug": "webpack --env.development --env.debug"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/vankop/webpack5-cache-bug#readme",
   "devDependencies": {
-    "webpack": "^5.0.0-beta.8",
+    "webpack": "^5.0.0-beta.11",
     "webpack-cli": "^3.3.10"
   }
 }
